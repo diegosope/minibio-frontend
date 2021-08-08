@@ -1,0 +1,89 @@
+.head{
+    text-align: center;
+    img{
+        width: 110px;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: -1px -1px 15px -1px rgb(38, 120, 253);
+        margin-top: 15px;
+    }
+    h3{
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 16px;
+        margin-bottom: 20px;
+
+        float:left;
+        position: relative;
+    }
+    .maquina{
+        margin: auto;
+        display: table;
+    }
+
+    h3 span{
+        position: absolute;
+        right: 0;
+        width: 0;
+        background-color: #242736;
+        border-left: 3px solid #2678fd ;
+        animation: efecto 5s infinite alternate steps(6);//9 es el numero de caracteres que hay escrito
+    
+    }
+//maquina esccribir
+@keyframes efecto {
+    from {
+    width: 100%;
+}
+to{
+    width: 0px;
+  }
+}
+
+
+p{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0px;
+    
+    }
+a p{
+    color:#2678fd ;
+}
+    
+}
+
+.link-item{
+    box-shadow: -1px -1px 8px -1px rgb(38, 120, 253);
+    padding: 5px;
+    text-decoration: none;
+    margin: 8px 80px;
+    transition: all 0.3s ease-in-out;
+    border-style: solid;
+    border-width: 1px;
+    fa-icon{
+     font-size:xx-large;
+     }
+.item-left{
+    width: 30%;
+    display: inline-block;
+
+}
+.item-right{
+    width: 70%;
+    display: inline-block;
+
+    padding:0 10px;
+}
+&:hover{
+    opacity: 0.6;
+}
+}
+hr{
+    color: #2678fd; 
+    margin-top: 0px;
+    opacity: 1;
+}
+
+
